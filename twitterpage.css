@@ -1,0 +1,377 @@
+/*---------------------------------------------------------//
+//                   Twitter Page Styles                   //
+//                   Dan Schneider, 2011                   //
+//---------------------------------------------------------*/
+
+#dp-twitter-page #dptwmain {
+	width:640px;
+	display:block;
+	clear:both;
+}
+
+#dp-twitter-page #topper {
+	width:640px;
+	display:block;
+	clear:both;
+	margin-top:18px;
+}
+
+#dp-twitter-page #topleft {
+	width:308px;
+	float:left;
+	display:inline-block;
+	padding-left:12px;
+	margin-bottom:10px !important;
+}
+
+#dp-twitter-page #topright {
+	width:318px;
+	float:left;
+	display:inline-block;
+	margin-bottom:10px !important;
+}
+
+#dp-twitter-page .hide_list {
+	background:#fff;
+	width:628px;
+	margin:6px 5px;
+	border:1px solid #ccc;
+	display:none; box-shadow:0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+#dp-twitter-page .openbutton h3 {
+	display:block;
+	float:left;
+	font-family:helvetica,tahoma,arial,sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	margin:10px 0 10px 12px;
+	color:#fff;
+	width:170px;
+	zoom:1;
+	*display:inline;
+}
+
+#dp-twitter-page .openbutton {
+	width:638px;
+	height:86px;
+	margin:6px 0;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+#dp-twitter-page .openarrow {
+	float:left;
+	display:inline-block;
+	clear:left;
+	cursor:pointer;
+}
+#dp-twitter-page .arrow {
+	clear:left;
+	width:81px;
+	height:20px;
+	overflow:hidden;
+	margin:2px 57px 0 44px;
+	list-style-type:none;
+}
+
+#dp-twitter-page .arrow ul, #dp-twitter-page .arrow li {
+	margin:0;
+	padding:0;
+	height:20px;
+	width:81px;
+}
+
+#dp-twitter-page .tweeter {
+	width:200px;
+	height:46px;
+	margin:3px 3px;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+}
+
+#dp-twitter-page a.tweet, #dp-twitter-page h2.tweet {
+	text-decoration:none;
+	font-family:Helvetica,Tahoma,Arial,sans-serif;
+	font-size:14px;
+	font-weight:600;
+	display:block;
+	font-style:normal;
+	color:#003459;
+	height:18px;
+	margin:0 0 0 6px;
+	width:140px;
+	text-align:left;
+	float:left;
+	position:relative;
+	overflow:hidden;
+}
+
+#dp-twitter-page p.tweet {
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	font-size:12px;
+	font-weight:300;
+	font-style:normal;
+	color:#000;
+	display:block;
+	height:18px;
+	margin:0 0 4px 6px;
+	width:140px;
+	text-align:left;
+	float:left;
+	position:relative;
+	line-height:1.1;
+}
+
+#dp-twitter-page img.tweet {
+	display:block;
+	width:44px;
+	height:44px;
+	border:1px solid #bbb;
+	float:left;
+	position:relative;
+}
+
+#dp-twitter-page .featured {
+	width:220px;
+	height:60px;
+	margin:2px 0 6px;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	border:none;
+}
+
+#dp-twitter-page h2.featured {
+	text-decoration:none;
+	font-family:Helvetica,Arial,Tahoma,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	font-style:normal;
+	color:#fff;
+	height:22px;
+	margin:2px 0;
+	width:150px;
+	text-align:left;
+	float:left;
+	border:none;
+	position:relative;
+}
+
+#dp-twitter-page .featured a:link, #dp-twitter-page .featured a:visited {
+	text-decoration:none;
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	font-style:normal;
+	color:#fff;
+	height:22px;
+	margin:2px 0;
+	width:150px;
+	text-align:left;
+	float:left;
+	border:none;
+	position:relative;
+}
+
+#dp-twitter-page .featured a:hover {
+	text-decoration:underline;
+	border:none;
+}
+
+#dp-twitter-page p.featured {
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	font-size:11px;
+	font-weight:300;
+	font-style:italic;
+	color:#fff;
+	height:30px;
+	margin:0;
+	width:150px;
+	text-align:left;
+	float:left;
+	border:none;
+	position:relative;
+	line-height: 1.1!important;
+}
+
+#dp-twitter-page img.featured {
+	width:56px;
+	height:56px;
+	border:1px solid #bbb;
+	margin:0 6px 0 0;
+	float:left;
+	position:relative;
+}
+
+#dp-twitter-page .featuredlede {
+	height:18px;
+	float:right;
+	line-height:16px;
+	width:266px;
+	margin:4px 104px 0 0;
+	font-size:12px;
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	font-weight:300;
+	font-style:normal;
+	font-variant:small-caps;
+	color:#fff;
+}
+
+#dp-twitter-page #newstw {
+	background:#aaa;
+}
+
+#dp-twitter-page #sportstw {
+	background:#F68A4A;
+}
+
+#dp-twitter-page #politicstw {
+	background:#222;
+}
+
+#dp-twitter-page #entertainmenttw {
+	background:#AF1F29;
+}
+
+#dp-twitter-page #yourhubtw {
+	background:#307DA9;
+}
+
+#dp-twitter-page #regionstw {
+	background:#E5BC48;
+}
+
+#dp-twitter-page #livingtw {
+	background:#668565;
+}
+
+#dp-twitter-page #multimediatw {
+	background:#546A82;
+}
+
+#dp-twitter-page #businesstw {
+	background:#526667;
+}
+
+#dp-twitter-page #editorialtw {
+	background:#8A715D;
+}
+
+#dp-twitter-page #weathertw {
+	background:#aBa067;
+}
+
+#dp-twitter-page #onlinetw {
+	background:#4F40a2;
+}
+
+#dp-twitter-page h3.twithed, #dp-twitter-page h4.twithed {
+	font-family: "Merriweather",Georgia,"Times New Roman",Times,serif !important;
+	font-size:16px;
+	line-height:20px;
+	margin:0 auto;
+	padding-bottom:5px;
+	color:#003459;
+}
+
+#dp-twitter-page h3.twithed {
+	padding-bottom:12px !important;
+	font-size:20px;
+}
+
+#dp-twitter-page .twithed a:link, #dp-twitter-page .twithed a:visited {
+	text-decoration:none;
+	color:#003459;
+}
+
+#dp-twitter-page .twithed a:hover {
+	text-decoration:underline;
+}
+
+#dp-twitter-page .twitcol ul {
+	padding-left:0;
+	margin-top:0;
+}
+
+#dp-twitter-page .twitcol li {
+	font-size:12px;
+	line-height:17px;
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	padding-bottom:8px;
+	padding-top:8px;
+	width:282px;
+	display:block;
+	list-style-type:none;
+	height:auto;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+}
+
+#dp-twitter-page #hed {
+	padding-top:0;
+}
+
+#dp-twitter-page .tweetdate {
+	text-align:right;
+	display:block;
+	height:12px;
+	clear:both;
+	font-size:11px;
+	margin-top:-4px !important;
+}
+
+#dp-twitter-page .tweetdate a:link, #dp-twitter-page .tweetdate a:visited {
+	text-decoration:none;
+	color:#888;
+}
+
+#dp-twitter-page .tweetdate a:hover {
+	text-decoration:underline;
+	color:#888;
+}
+
+#dp-twitter-page .spotlight {
+	width:300px;
+	height:80px;
+	margin:6px 0 6px;
+	display:inline-block;
+}
+
+#dp-twitter-page h2.spotlight, #dp-twitter-page a.spotlight {
+	text-decoration:none;
+	font-family:Helvetica,Arial,Tahoma,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	font-style:normal;
+	color:#003459;
+	height:20px;
+	margin:0 0 2px;
+	width:216px;
+	text-align:left;
+	float:left;
+}
+
+#dp-twitter-page p.spotlight {
+	font-family:Arial,Helvetica,Tahoma,sans-serif;
+	font-size:11px;
+	font-weight:300;
+	font-style:italic;
+	color:#333;
+	height:22px;
+	margin:0;
+	width:216px;
+	text-align:left;
+	float:left;
+}
+
+#dp-twitter-page img.spotlight {
+	width:72px;
+	height:72px;
+	border:1px solid #bbb;
+	margin:0 6px 0 0;
+	float:left;
+}
+
+/* END TWITTER PAGE STYLES */

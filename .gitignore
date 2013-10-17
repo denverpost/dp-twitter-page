@@ -1,0 +1,7 @@
+# Files for local testing only #
+################################
+index.shtml
+
+# OS generated files #
+######################
+.DS_Store
