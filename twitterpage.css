@@ -2,30 +2,24 @@
 //                   Twitter Page Styles                   //
 //                   Dan Schneider, 2011                   //
 //---------------------------------------------------------*/
-
 #dp-twitter-page #dptwmain {
 	width:640px;
-	display:block;
-	clear:both;
 }
 #dp-twitter-page #topper {
 	width:640px;
-	display:block;
-	clear:both;
 	margin-top:18px;
+	margin-bottom:10px;
 }
 #dp-twitter-page #topleft {
 	width:308px;
 	float:left;
 	display:inline-block;
 	padding-left:12px;
-	margin-bottom:10px;
 }
 #dp-twitter-page #topright {
 	width:318px;
 	float:left;
 	display:inline-block;
-	margin-bottom:10px;
 }
 #dp-twitter-page .hide_list {
 	background:#fff;
@@ -35,16 +29,11 @@
 	display:none; box-shadow:0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
 #dp-twitter-page .openbutton h3 {
-	display:block;
 	float:left;
-	font-family:helvetica,tahoma,arial,sans-serif;
-	font-size:22px;
-	font-weight:bold;
+	font:normal 700 22px/22px Helvetica,Arial,Tahoma,sans-serif;
 	margin:10px 0 10px 12px;
 	color:#fff;
 	width:170px;
-	zoom:1;
-	*display:inline;
 }
 #dp-twitter-page .openbutton {
 	width:638px;
@@ -58,13 +47,18 @@
 	clear:left;
 	cursor:pointer;
 }
-#dp-twitter-page .arrow {
-	clear:left;
-	width:81px;
-	height:20px;
-	overflow:hidden;
-	margin:2px 57px 0 44px;
-	list-style-type:none;
+#dp-twitter-page .openarrow div.arrow {
+	width: 0;
+	height: 0;
+	margin-left:40px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top-width: 25px;
+	border-top-color:rgba(255, 255, 255, 0.6);
+	border-top-style:solid;
+	border-bottom-width:0;
+	border-bottom-color: transparent;
+	border-bottom-style:solid;
 }
 #dp-twitter-page .hide_list ul {
 	list-style-type: none;
@@ -76,64 +70,43 @@
 	height:46px;
 	margin:3px 3px;
 	display:inline-block;
-	zoom:1;
-	*display:inline;
-	position:relative;
 }
 #dp-twitter-page .hide_list ul li a, #dp-twitter-page .hide_list ul li h2 {
 	text-decoration:none;
-	font-family:Helvetica,Tahoma,Arial,sans-serif;
-	font-size:14px;
-	font-weight:600;
-	display:block;
-	font-style:normal;
+	font:normal 600 14px/16px Helvetica,Arial,Tahoma,sans-serif;
 	color:#003459;
 	height:18px;
 	margin:0 0 0 6px;
 	width:140px;
 	text-align:left;
 	float:left;
-	position:relative;
 	overflow:hidden;
 }
 #dp-twitter-page .hide_list ul li p {
-	font-family:Arial,Helvetica,Tahoma,sans-serif;
-	font-size:12px;
-	font-weight:300;
-	font-style:normal;
+	font:normal normal 12px/14px Arial,Helvetica,Tahoma,sans-serif;
 	color:#000;
-	display:block;
 	height:18px;
-	margin:0 0 4px 6px;
+	margin:2px 0 4px 6px;
 	width:140px;
 	text-align:left;
 	float:left;
-	position:relative;
-	line-height:1.1;
 }
 #dp-twitter-page .hide_list ul li img {
-	display:block;
 	width:44px;
 	height:44px;
 	border:1px solid #bbb;
 	float:left;
-	position:relative;
 }
 #dp-twitter-page .featured {
 	width:220px;
 	height:60px;
 	margin:2px 0 6px;
 	display:inline-block;
-	zoom:1;
-	*display:inline;
 	border:none;
 }
 #dp-twitter-page .featured a:link, #dp-twitter-page .featured a:visited {
 	text-decoration:none;
-	font-family:Arial,Helvetica,Tahoma,sans-serif;
-	font-size:16px;
-	font-weight:700;
-	font-style:normal;
+	font:normal 600 16px/22px Helvetica,Arial,Tahoma,sans-serif;
 	color:#fff;
 	height:22px;
 	margin:2px 0;
@@ -141,26 +114,18 @@
 	text-align:left;
 	float:left;
 	border:none;
-	position:relative;
 }
 #dp-twitter-page .featured a:hover {
 	text-decoration:underline;
-	border:none;
 }
 #dp-twitter-page .featured p {
-	font-family:Arial,Helvetica,Tahoma,sans-serif;
-	font-size:11px;
-	font-weight:300;
-	font-style:italic;
+	font:italic normal 12px/14px Arial,Helvetica,Tahoma,sans-serif;
 	color:#fff;
 	height:30px;
 	margin:0;
 	width:150px;
 	text-align:left;
 	float:left;
-	border:none;
-	position:relative;
-	line-height: 1.1!important;
 }
 #dp-twitter-page .featured img {
 	width:56px;
@@ -168,25 +133,18 @@
 	border:1px solid #bbb;
 	margin:0 6px 0 0;
 	float:left;
-	position:relative;
 }
 #dp-twitter-page .featuredlede {
+	font: normal normal 13px/16px Arial,Helvetica,Tahoma,sans-serif;
 	height:18px;
 	float:right;
-	line-height:16px;
 	width:266px;
 	margin:4px 104px 0 0;
-	font-size:12px;
-	font-family:Arial,Helvetica,Tahoma,sans-serif;
-	font-weight:300;
-	font-style:normal;
 	font-variant:small-caps;
 	color:#fff;
 }
 #dp-twitter-page h3.twithed, #dp-twitter-page h4.twithed {
-	font-family: "Merriweather",Georgia,"Times New Roman",Times,serif;
-	font-size:16px;
-	line-height:20px;
+	font-family: normal 400 16px/20px "Merriweather",Georgia,"Times New Roman",Times,serif;
 	margin:0 auto;
 	padding-bottom:5px;
 	color:#003459;
@@ -201,12 +159,9 @@
 	margin:6px 0 6px;
 	display:inline-block;
 }
-#dp-twitter-page h2.spotlight, #dp-twitter-page a.spotlight {
+#dp-twitter-page .spotlight h2, #dp-twitter-page .spotlight a {
 	text-decoration:none;
-	font-family:Helvetica,Arial,Tahoma,sans-serif;
-	font-size:16px;
-	font-weight:700;
-	font-style:normal;
+	font:normal 700 16px/22px Helvetica,Arial,Tahoma,sans-serif;
 	color:#003459;
 	height:20px;
 	margin:0 0 2px;
@@ -214,11 +169,8 @@
 	text-align:left;
 	float:left;
 }
-#dp-twitter-page p.spotlight {
-	font-family:Arial,Helvetica,Tahoma,sans-serif;
-	font-size:11px;
-	font-weight:300;
-	font-style:italic;
+#dp-twitter-page .spotlight p {
+	font:italic normal 12px/16px Arial,Helvetica,Tahoma,sans-serif;
 	color:#333;
 	height:22px;
 	margin:0;
@@ -226,12 +178,11 @@
 	text-align:left;
 	float:left;
 }
-#dp-twitter-page img.spotlight {
+#dp-twitter-page .spotlight img {
 	width:72px;
 	height:72px;
 	border:1px solid #bbb;
 	margin:0 6px 0 0;
 	float:left;
 }
-
 /* END TWITTER PAGE STYLES */
