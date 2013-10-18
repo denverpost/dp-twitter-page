@@ -30,7 +30,8 @@
 }
 #dp-twitter-page .openbutton h3 {
 	float:left;
-	font:normal 700 22px/22px Helvetica,Arial,Tahoma,sans-serif;
+	font:normal 600 22px/22px Helvetica,Arial,Tahoma,sans-serif;
+	letter-spacing:.5px;
 	margin:10px 0 10px 12px;
 	color:#fff;
 	width:170px;
