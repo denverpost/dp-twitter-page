@@ -73,15 +73,18 @@
 	margin:2px 57px 0 44px;
 	list-style-type:none;
 }
-
 #dp-twitter-page .arrow ul, #dp-twitter-page .arrow li {
 	margin:0;
 	padding:0;
 	height:20px;
 	width:81px;
 }
-
-#dp-twitter-page .tweeter {
+#dp-twitter-page .hide_list ul {
+	list-style-type: none;
+	margin:5px 2px 0 0;
+	padding:0;
+}
+#dp-twitter-page .hide_list ul li {
 	width:200px;
 	height:46px;
 	margin:3px 3px;
@@ -91,7 +94,7 @@
 	position:relative;
 }
 
-#dp-twitter-page a.tweet, #dp-twitter-page h2.tweet {
+#dp-twitter-page .hide_list ul li a, #dp-twitter-page .hide_list ul li h2 {
 	text-decoration:none;
 	font-family:Helvetica,Tahoma,Arial,sans-serif;
 	font-size:14px;
@@ -108,7 +111,7 @@
 	overflow:hidden;
 }
 
-#dp-twitter-page p.tweet {
+#dp-twitter-page .hide_list ul li p {
 	font-family:Arial,Helvetica,Tahoma,sans-serif;
 	font-size:12px;
 	font-weight:300;
@@ -124,7 +127,7 @@
 	line-height:1.1;
 }
 
-#dp-twitter-page img.tweet {
+#dp-twitter-page .hide_list ul li img {
 	display:block;
 	width:44px;
 	height:44px;
